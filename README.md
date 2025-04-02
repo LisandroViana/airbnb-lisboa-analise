@@ -13,12 +13,21 @@ Lisandro Almeida Viana
 - Verificar a **disponibilidade anual média por bairro**
 - Criar gráficos que facilitem a interpretação visual dos dados
 
+## ❓ Problemas que este projeto ajuda a responder
+
+- Qual o preço médio dos imóveis por tipo de acomodação?
+- Quais são os bairros com maior oferta de imóveis e disponibilidade?
+- Quais fatores influenciam mais no preço de um imóvel no Airbnb?
+- Como um novo anunciante pode se posicionar melhor no mercado?
+- É possível prever o preço de um imóvel com base em suas características?
+
 ## 📊 Ferramentas Utilizadas
 
 - Python
 - Pandas
 - Matplotlib
 - Seaborn
+- Scikit-learn
 - Jupyter Notebook
 
 ## 📁 Fonte dos Dados
@@ -30,7 +39,8 @@ Os dados foram obtidos do repositório público do [Kaggle](https://www.kaggle.c
 - **Distribuição de preços** dos imóveis, com corte para valores até €1500
 - **Boxplot** para análise de preços por tipo de acomodação
 - **Barplot** dos bairros com maior disponibilidade média anual
-- **Limpeza dos dados**, remoção de outliers e conversão de dados monetários
+- **Matriz de correlação** para variáveis numéricas
+- **Modelo preditivo** com Regressão Linear
 
 ## 📌 Principais Conclusões
 
@@ -40,9 +50,9 @@ Os dados foram obtidos do repositório público do [Kaggle](https://www.kaggle.c
 
 ## 🚀 Próximos Passos
 
-- Construção de um modelo preditivo para estimar o preço de um imóvel.
-- Visualizações interativas com mapas georreferenciados.
-- Otimização do projeto para publicação como portfólio.
+- Construção de um modelo preditivo mais robusto
+- Visualizações interativas com mapas georreferenciados
+- Otimização do projeto para publicação como portfólio
 
 ---
 
